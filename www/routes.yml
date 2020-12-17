@@ -1,0 +1,23 @@
+/:
+  controller: Main
+  action: default
+
+/admin:
+  controller: Security
+  action: default
+
+/login:
+  controller: Security
+  action: login  
+
+/logout:
+  controller: Security
+  action: logout
+
+/profile:
+  controller: Profile
+  action: default
+
+/menu:
+  controller: Menu
+  action: default
